@@ -74,14 +74,13 @@ int factors(int x, int arr[]){
                 if(isprime(i)){
                      arr[cnt] = i ;
                      x = x/i ; 
-                     cnt++; 
-                     printf("%i\n",i);
+                     cnt++;
                      }
                           
                             if (isprime(x)){
                                arr[cnt] = x;
-                               printf("%i\n",x);
-                                break ;
+                              
+                               
                            }
                 }
         
